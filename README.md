@@ -30,15 +30,15 @@ High-performance, non-blocking firmware developed for **STM32 (Blackpill)** inte
 The microcontroller outputs a structured string terminated with `\r\n`:
 
 
-"E,enc1,enc2;V,volt;I,i1,i2;S,err,mod,ac;A,ax,ay,az;G,gx,gy,gz;O,q0,q1,q2,q3;F,freq\r\n"
+`"E,enc1,enc2;V,volt;I,i1,i2;S,err,mod,ac;A,ax,ay,az;G,gx,gy,gz;O,q0,q1,q2,q3;F,freq\r\n"`
 
 
 ## Field Descriptions:
 
-E: Encoders (Encoder 1, Encoder 2)
-V: Battery voltageI: Motor currents (Motor 1, Motor 2)
-S: MD49 status (t_err, mod, ac)
-A: IMU Accelerometer (a_x, a_y, a_z in m/s^2)
-G: IMU Gyroscope (g_x, g_y, g_z in rad/s)
-O: Orientation in Quaternions (q_0, q_1, q_2, q_3)
-F: Real-time measured loop frequency (Hz)
+* E: Encoders (Encoder 1, Encoder 2)
+* V: Battery voltageI: Motor currents (Motor 1, Motor 2)
+* S: MD49 status (t_err, mod, ac)
+* A: IMU Accelerometer (a_x, a_y, a_z in m/s^2)
+* G: IMU Gyroscope (g_x, g_y, g_z in rad/s)
+* O: Orientation in Quaternions (q_0, q_1, q_2, q_3)
+* F: Real-time measured loop frequency (Hz)
